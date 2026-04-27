@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>
+   engidots platform
+</title>
+<style>
+ 
+body {
+    
+    font-family: 'Space Mono', monospace;
+h1 {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-weight: bold;
+    text-shadow:
+        0 0 3px rgba(0, 255, 255, 1),
+        0 0 3px rgba(0, 255, 255, 1),
+        0 0 3px rgba(0, 255, 255, 1),
+        0 0 5px rgba(0, 255, 255, 0.8),
+        0 0 5px rgba(0, 255, 255, 0.6);
+    margin: 20px 0;
+    -webkit-font-smoothing: antialiased;
+}
+ 
+h2 {
+  color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-weight: bold;
+    text-shadow:
+        0 0 3px rgba(255, 0, 255, 1),
+        0 0 3px rgba(255, 0, 255, 1),
+        0 0 3px rgba(255, 0, 255, 1),
+        0 0 5px rgba(255, 0, 255, 0.8),
+        0 0 5px rgba(255, 0, 255, 0.6);
+    margin: 20px 0;
+    -webkit-font-smoothing: antialiased;
+}
+background-image: url('back.png');
+background-size: 10000px 10000px ;
+background-position: center;
+background-repeat: no-repeat;
+height: 100vh;
+margin: 0;}
+.thanks {
+    background: rgba(44, 22, 104, 0);
+    padding: 30px;
+    margin: 40px auto;
+    width: 950px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.938);
+    border-radius: 30px;
+    text-align: center;
+ 
+  --clr: 0,255,255;
+ 
+  padding: 10px 24px;
+  
+  border: 4px solid rgba(var(--clr), 0.50);
+  background:   rgba(var(--clr), 0.10);
+  color:        rgba(var(--clr), 1.00);
+ 
+  font-size: 15px;
+  
+}
+.form1 ,form2 ,form3 ,form4 ,form5 {
+    display: block;
+    background: rgba(44, 22, 104, 0);
+    padding: 22px;
+    margin: 40px auto;
+    width: 950px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.938);
+    border-radius: 22px;
+    text-align: center;
+    --clr: 0,255,255;
+text-shadow:
+        0 0 1px #ff00ff,
+        0 0 1px #ff00ff,
+    margin: 0;
+  padding: 10px 24px;
+  
+  border: 4px solid rgba(255, 0, 212, 0.863);
+  background:   rgba(var(--clr), 0.10);
+  color:        rgba(var(--clr), 1.00);
+ 
+  font-size: 15px;
+}
+.form2 {
+    display: block;
+    background: rgba(44, 22, 104, 0);
+    padding: 22px;
+    margin: 40px auto;
+    width: 950px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.938);
+    border-radius: 22px;
+    text-align: center;
+    --clr: 0,255,255;
+text-shadow:
+        0 0 1px #ff00ff,
+        0 0 1px #ff00ff,
+    margin: 0;
+  padding: 10px 24px;
+  
+  border: 4px solid rgba(255, 0, 212, 0.863);
+  background:   rgba(var(--clr), 0.10);
+  color:        rgba(var(--clr), 1.00);
+ 
+  font-size: 15px;
+}
+.form3 {
+    display: block;
+    background: rgba(44, 22, 104, 0);
+    padding: 22px;
+    margin: 40px auto;
+    width: 950px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.938);
+    border-radius: 22px;
+    text-align: center;
+    --clr: 0,255,255;
+text-shadow:
+        0 0 1px #ff00ff,
+        0 0 1px #ff00ff,
+    margin: 0;
+  padding: 10px 24px;
+  
+  border: 4px solid rgba(255, 0, 212, 0.863);
+  background:   rgba(var(--clr), 0.10);
+  color:        rgba(var(--clr), 1.00);
+ 
+  font-size: 15px;
+}
+.form4 {
+    display: block;
+    background: rgba(44, 22, 104, 0);
+    padding: 22px;
+    margin: 40px auto;
+    width: 950px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.938);
+    border-radius: 22px;
+    text-align: center;
+    --clr: 0,255,255;
+text-shadow:
+        0 0 1px #ff00ff,
+        0 0 1px #ff00ff,
+    margin: 0;
+  padding: 10px 24px;
+  
+  border: 4px solid rgba(255, 0, 212, 0.863);
+  background:   rgba(var(--clr), 0.10);
+  color:        rgba(var(--clr), 1.00);
+ 
+  font-size: 15px;
+}
+.form5 {
+    display: block;
+    background: rgba(44, 22, 104, 0);
+    padding: 22px;
+    margin: 40px auto;
+    width: 950px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.938);
+    border-radius: 22px;
+    text-align: center;
+    --clr: 0,255,255;
+text-shadow:
+        0 0 1px #ff00ff,
+        0 0 1px #ff00ff,
+    margin: 0;
+  padding: 10px 24px;
+  
+  border: 4px solid  #ff00ff;
+  background:   rgba(var(--clr), 0.10);
+  color:        rgba(var(--clr), 1.00);
+ 
+  font-size: 15px;
+}
+ 
+ 
+ 
+.form6{
+    background: rgba(44, 22, 104, 0);
+    padding: 30px;
+    margin: 40px auto;
+    width: 950px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.938);
+    border-radius: 22px;
+    text-align: center;
+    --clr: 25,25,112;
+ 
+  padding: 10px 24px;
+  
+  border: 4px solid rgba(var(--clr), 0.50);
+  background:   rgba(var(--clr), 0.10);
+  color:        rgba(var(--clr), 1.00);
+ 
+  font-size: 15px;
+    
+}
+  .form7 {
+    background: rgba(44, 22, 104, 0);
+    padding: 30px;
+    margin: 40px auto;
+    width: 950px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.938);
+    border-radius: 22px;
+    text-align: center;
+    --clr: 25,25,112;
+ 
+  padding: 10px 24px;
+  
+  border: 4px solid rgba(var(--clr), 0.50);
+  background:   rgba(var(--clr), 0.10);
+  color:        rgba(var(--clr), 1.00);
+ 
+  font-size: 15px;
+    
+}
+.img {
+text-align: center;
+padding: 0px;
+border: 2px solid rgba(44, 22, 104, .8);
+border-radius: 15%;
+}
+ 
+.imgs {
+  
+  text-align: center;
+  padding: 0px;
+  border: 2px solid rgba(255, 0,255,.8);
+  border-radius: 15%;
+  
+}
+ 
+h3, p ,h3,h4,h6, h5, label, ul, li { text-align: center;
+ 
+color: white !important;}
+ 
+a, a:visited {
+            color: rgb(163, 207, 247) !important;
+        }
+ 
+.all {text-align: center;}
+ 
+.nb {display: flex; justify-content: space-between; padding: 50px;}
+ 
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+ 
+.list a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+ 
+</style>
+</head>
+<body>
+    <div class="container">
+    
+<div class="all">
+<p>
+    
+        <div class="thanks">
+            <h1>
+     THANKS, for choosing our plateform </b>
+    </h1>
+</div>
+    
+        <div class="form6">
+            <h3>
+        Start exploring our courses which are designed to help you build your Engineering skills <br>
+        So choose a course, learn at your pace ,and take one step closer to become a special engineer <br>
+        We classified our courses into five categories to improve each skill needed
+    </h3>
+    </div>
+    
+  
+   
+    
+    <div class="form5">
+         <ul class="list">
+        <h2>
+        Programming & Software Development
+    </h2>
+        <li> <a href="https://youtube.com/playlist?list=PLDoPjvoNmBAyE_gei5d18qkfIe-Z8mocs&si=rTLigk2UiOZq5mko" target="_blank"> python for engineers</a> </li>
+        <li> <a href="https://www.learncpp.com/">c++ </a> </li>
+        <li> <a href="https://youtube.com/playlist?list=PL1DUmTEdeA6K7rdxKiWJq6JIxTvHalY8f&si=QjQUtHDSx2KrXnNg" target="_blank">java course</a></li>
+        <li> <a href="https://youtube.com/playlist?list=PLoP3S2S1qTfCVIETOGwaK3lyaL3UKu403&si=MWVuqn8cppyEzeXL" target="_blank"> html programming language course</a></li>
+        <li> <a href="https://youtube.com/playlist?list=PLDoPjvoNmBAzjsz06gkzlSrlev53MGIKe&si=KRl4isA8DsJGpvE5" target="_blank"> css programming language course </a></li>
+    </ul>
+    <img src="programming.png" height="200" width="200" class="imgs">
+    
+</div>
+    
+    <div class="form1">
+    <ul class="list"><h2> Engineering & Technical Skills</h2>
+        <li> <a href="https://youtube.com/playlist?list=PLrOFa8sDv6jcp8E3ayUFZ4iNI8uuPjXHe&si=FZqwa0kgqw_o2yZ-" target="_blank">autocad & solidworks course</a></li>
+        <li> <a href="https://youtube.com/playlist?list=PLWv9VM947MKgGV1yrfwsdW51kliYrVMBo&si=BdjTTVOcmfiCU1Zx" target="_blank"> circuit design course</a></li>
+        <li> <a href="https://youtube.com/playlist?list=PLxEk9RJLlExVe3T7rCkpZXGQCW_5Wj5Nd&si=L_BAbuEcb-b8Ytp5" target="_blank"> robotics course</a></li>
+    </ul>
+    <img src="technical skills.png" height=" 200" width="200" class="imgs">
+    
+</div>
+    
+    <div class="form2">
+    <ul class="list"><h2> Languages & Communication</h2>
+        <li> <a href="https://youtube.com/playlist?list=PLQxvItxxsIIXSSVU0MNUu9-B9C7NJjL7i&si=BvgfrLWVP4rX8e-e" target="_blank">english course for beginners</a></li>
+        <li> <a href="https://youtube.com/playlist?list=PLA0zku5VPP14yfyR4JxKEnMtoOIlT9MKh&si=gw8sI4VKMMznBXV2" target="_blank">technical writing course</a></li>
+        </ul>
+        <img src="communication.png" height="200" width="200" class="imgs">
+        
+    </div>
+        
+<div class="form3">
+        <ul class="list"><h2>Soft skills & Personal Development  </h2>
+            <li> <a href="https://youtube.com/playlist?list=PL2fUZ7TZy_xfTR2Go-QhyQET5Bu7jpb1t&si=qh_xSy1ll23OduGv" target="_blank">presentation skills </a></li>
+            <li> <a href="https://youtube.com/playlist?list=PLHW3KAZhF3zVMDG7YzP4kqfWf90zcncuP&si=_l6I6IKtPISjj8RL" target="_blank"> communication skills</a></li>
+            <li> <a href="https://youtu.be/n_UhsBZNADM?si=cKaW9MZPO4c0A7Z0"> teamwork</a></li>
+            <li> <a href="https://youtu.be/iONDebHX9qk?si=TtqEDB6t1va7i6aP"> time management</a></li>
+            <li> <a href="https://youtu.be/eXDNkwIeOqA?si=t_J7nFvooMbbX4kD"> leadership</a></li>
+        </ul>
+        <img src="softskills.png" height="200" width="200" class="imgs">
+        
+    </div>
+       
+        
+        <div class="form4">
+        <ul class="list"><h2> Business & Career Skills </h2>
+            <Li> <a href="https://youtube.com/playlist?list=PLgj7VaRVWj1fFAni5c_IOFmNod5GHlEAr&si=vv54F9qxwOtRZBrh" target="_blank"> project management</a></Li>
+            <li> <a href="https://youtube.com/playlist?list=PLEiEAq2VkUUK56bAwcQTjwwN0PRs6zBb1&si=jHjZ-XA5u3nBc9vE" target="_blank">interview skills</a></li>
+            <li> <a href="https://youtube.com/playlist?list=PLiWisR9PzQOeVpTNIt0q_Tm2_SjUA593s&si=5M8qZGVaz-2QEqj8" target="_blank"> cv building skills </a></li>
+        </ul>
+  <br>
+  <br> <img src="career skills.png" height="200" width="200" class="imgs">
+   
+   
+    
+    <br>
+    </h3>
+  </div>
+  
+  <div class="form7">
+    <h3>
+        <h3>  Not only courses will help you improve your skills but also you will get a certificate for each course you will finish and this will improve your cv .
+    </h3>
+     <img src="certificate.png" height="200" width="200" class="img">
+     <h3>
+        All courses here began from level beginners and each course can take about 2-3 weeks to finish <br>
+    Each level in course have a quiz you have to pass to get to next level <br>
+     </h3>
+    </div>
+    <div class="nb">
+  <a href="form.html" class="back">BACK TO LOG IN PAGE</a>
+  <a href="page-3.html" class="next">NEXT PAGE</a>
+  
+    </div>
+</p>
+</div>
+</div>
+</body>
+ 
+</html>
